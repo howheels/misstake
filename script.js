@@ -183,3 +183,64 @@ console.log(age2)
     // console.log(resultOfPercentForExpression3);
     const a;
 console.log(a)
+
+
+"use strict"
+/*
+const calcAge = function (birthYear) {
+    return 2023 - birthYear;
+}
+
+const yearsUntilRetirement = function (birthYear, firstName) {
+    const age = calcAge(birthYear);
+    const retirement = 65 - age;
+
+
+    if (retirement > 0) {
+        console.log(`${firstName} retires in ${retirement} years`);
+        return retirement;
+    } else {
+        console.log(`${firstName} has already retired`)
+        return -1;
+    }
+}
+
+
+
+
+
+console.log(yearsUntilRetirement(1991, 'Jonas'));
+console.log(yearsUntilRetirement(1950, 'Mike'));
+*/
+/*
+const calcAverage = (Dolphins, Koalas) => {
+    const averageScoreDoplhins = Dolphins / 3 * 2
+    const averageScoreKoalas = Koalas / 3 * 2
+
+    return `Doplhins has ${averageScoreDoplhins} and Koalas ${averageScoreKoalas}`
+}
+
+
+// test data 1
+console.log(checkWinner((44 + 23 + 71), (85 + 54 + 41)));
+// test data 2
+// console.log(calcAverage((85 + 54 + 41), (23 + 34 + 27)));
+*/
+
+// Array
+// Istället för att koda på sättet här nedan med friend1, friend 2 etc. så ser du på exempel 2 hur man skapar en array. En array låter dig att kunna lägga in fler data i en variabel, en viss typ utav låda tänkt dig så
+const friend1 = 'Michael';
+const friend2 = 'Steven';
+const friend3 = 'Peter';
+
+// Det här är hur man skriver en array. Vi har samma valuen som ovan men de är i en string/variabel vilket är friends. Det här sättet att skriva inom [] är det vanligaste
+const friends = ['Michael', 'Steven', 'Peter']
+console.log(friends)
+
+// Det här är ett annat exempel på hur du kan skriva en array. då anger du att det är en "new Array" och anger värden. Det här sättet är ovanligare och skriva på. 
+const years = new Array(1991, 1984, 2008, 2020)
+
+console.log(friends[0])
+console.log(friends[1])
+
+console.log(friends.length)
